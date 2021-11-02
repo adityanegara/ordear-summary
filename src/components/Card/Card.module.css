@@ -3,6 +3,8 @@
   width: 100%;
   background-color: white;
   padding-bottom: 2vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .card-header {
@@ -16,7 +18,7 @@
 }
 
 .card-content {
-  margin-top: 4vh;
+  margin-top: 3vh;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -35,7 +37,7 @@
 }
 
 .card-plan {
-  margin-top: 4vh;
+  margin-top: 3vh;
   background-color: #f8f9fe;
   margin-left: auto;
   margin-right: auto;
@@ -70,6 +72,12 @@ p {
   font-weight: 900;
   font-size: 0.8em;
   text-decoration: underline;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.change-button button:hover {
+  color: #8179cd;
 }
 
 .button-groups {
@@ -82,6 +90,7 @@ p {
   gap: 2vh;
 }
 .proceed-button {
+  box-shadow: rgb(204, 191, 221) 0px 5px 15px;
   color: white;
   font-weight: 700;
   background-color: #382ae1;
@@ -90,9 +99,15 @@ p {
   font-size: 0.9em;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.proceed-button:hover {
+  background-color: #766cf1;
 }
 
 .cancel-button {
+  cursor: pointer;
   color: hsl(224, 23%, 55%);
   font-weight: 900;
   background-color: transparent;
@@ -101,4 +116,8 @@ p {
   font-size: 0.9em;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  transition: ease-in 0.2s;
+}
+.cancel-button:hover {
+  color: black;
 }
