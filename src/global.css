@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url('./assets/icons/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d6e1ff;
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    background-image: url('./assets/icons/pattern-background-desktop.svg');
+    background-color: #e0e8ff;
+  }
+}
