@@ -17,5 +17,6 @@ body {
   body {
     background-image: url('./assets/icons/pattern-background-desktop.svg');
     background-color: #e0e8ff;
+    background-size: contain;
   }
 }

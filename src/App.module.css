@@ -1,9 +1,21 @@
 .mt-10 {
-  margin-top: 5vh;
-  margin-bottom: 10vh;
 }
 .container {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 29%;
+  }
 }
